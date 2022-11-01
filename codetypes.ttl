@@ -48,11 +48,47 @@
         skos:historyNote """Version 0.0.1 is the first release of the core ontology constructed from the Agent, Event, and Designed Artifact System Patterns"""@en ;
 .
 
-<causeCode.csv> a prov:entity;
+<causeCodeCSV> a prov:entity;
     dcterms:title "Cause Code CSV File" .
 
+<actionTakenCodeCSV> a prov:entity;
+    dcterms:title "Action Taken Code CSV File" .
+
+<alterationCodeCSV> a prov:entity;
+    dcterms:title "Alteration Code CSV File" .
+
+<deferralCodeCSV> a prov:entity;
+    dcterms:title "Deferral Code CSV File" .
+
+<priorityCodeCSV> a prov:entity;
+    dcterms:title "Priority Code CSV File" .
+    
+<rateCodeCSV> a prov:entity;
+    dcterms:title "Rate/Rank Code CSV File" .
+
+<safetyHazardCodeCSV> a prov:entity;
+    dcterms:title "Safety Hazard Code CSV File" .
+
+<statusCodeCSV> a prov:entity;
+    dcterms:title "Status Code CSV File" .
+
+<typeAvailabilityCodeCSV> a prov:entity;
+    dcterms:title "Type Availability Code CSV File" .
+
+<whenDiscoveredCodeCSV> a prov:entity;
+    dcterms:title "When Discovered Code CSV File" .
+
 <activity> a prov:activity;
-    prov:used <causeCode.csv> .
+    prov:used <causeCode.csv>;
+    prov:used <actionTakenPrimaryCode.csv>;
+    prov:used <alterationCodeCSV>;
+    prov:used <deferralCodeCSV>;
+    prov:used <priorityCodeCSV>;
+    prov:used <rateCodeCSV>;
+    prov:used <safetyHazardCodeCSV>;
+    prov:used <statusCodeCSV> ;
+    prov:used <typeAvailabilityCodeCSV>;
+    prov:used <whenDiscoveredCodeCSV> .
 
 <newVocabulary> a prov:entity, moo:code;
     prov:wasGeneratedBy <activity> .
