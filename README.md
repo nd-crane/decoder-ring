@@ -5,7 +5,7 @@ Using Naval Maintenance Manuals to develop CSV Tables for usage in Knowledge Gra
         <li>-environment.yml --no builds specification</li>
         <li>-environment_macos.yml </li>
         <li>-environment_wsl --for Ubuntu/WSL distributions</li>
-
+   </ul>
 <ol>
 <li>table_munger_JFMM.ipynb- Primary resource for 2Kilos Code Disambiguation. Using a snippet from Appendix D for tables. Haven't yet expanded for acronym disambiguation.</li>
 <li>table_munger_3M- Pulls tables from Ships 3M manual to provide further context. Not integrated in KG yet.</li>
