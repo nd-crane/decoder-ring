@@ -1,0 +1,13 @@
+,0,1,2
+0,Table 12 - Action Taken Codes,,
+1,Code,Description,
+2,,B,"FOTE, multimode heavy duty MQJs utilized"
+3,,C,"FOTE, multimode rotary mechanical splice MQJs utilized"
+4,,D,"FOTE, single mode ST MQJs utilized"
+5,,E,"FOTE, single mode heavy duty MQJs utilized"
+6,,F,"FOTE, multimode specialty MQJs utilized"
+7,,G,"FOTE, single mode specialty MQJs utilized"
+8,,H,"FOTE, not available"
+9,,I,Standard MQJs not available
+10,,J,Specialty MQJs not available
+30,,A,"FOTE, multimode heavy duty MQJs utilized"

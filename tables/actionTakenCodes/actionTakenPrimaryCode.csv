@@ -1,0 +1,19 @@
+,0,Code,Description,1
+2,2,1,Maintenance Action Completed; Parts Drawn from Supply,
+3,3,2,"Maintenance Action Completed; Required Parts Not Drawn from Supply 
+(local manufacture, pre-expended bins, etc.)",
+4,4,3,Maintenance Action Completed; No Parts Required,
+5,5,4,"Canceled (When this code is used, the deferral will be removed from the 
+CSMP).  This code is not to be used with INSURV, Safety, or Priority 1 or 2 
+deferrals screened for accomplishment by the TYCOM or IUC.",
+6,6,7,"Maintenance Action Completed; 2-M (Miniature and Micro-Miniature 
+Electronic Modules) Capability Utilized.",
+7,5,8,"Periodic Time Meter or Cycle Counter reporting.  (This code is not 
+applicable to the “FINAL ACTION” code reported by the repair activity.)",
+8,6,9,Maintenance Action Completed;  3-M Fiber Optic Repair,
+9,11,0,None of the Above,
+11,2,5A,Partially Completed Alteration,
+12,3,5B,Fully Completed Alteration,
+13,4,5C,Fully Completed Equivalent to Alteration,
+14,5,5D,Alteration Directive Not Applicable,
+15,6,6,Rejected Work Request,

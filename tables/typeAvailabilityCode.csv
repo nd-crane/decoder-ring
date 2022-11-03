@@ -1,0 +1,12 @@
+,0,Code,Description
+2,2,1,Depot (shipyard or ship repair facility)
+3,3,2,"Intermediate Maintenance Activity (tender, repair ship, etc.)"
+4,4,3,"Fleet Technical Support.  TYCOM Support Unit (floating dry dock, 
+etc., or technical assistance from NAVSEA or Regional 
+Maintenance Centers or contractor representative)"
+5,5,4,"Ship’s Force or Unit (Originating Work Center, Organizational 
+Level)"
+6,6,0,Not Applicable
+7,7,U,"(Mission Degrading) (entered on 2K) Used by INSURV. Field 
+identifies certain deficiencies which are considered as preventing 
+the activity from carrying out some part of its mission."

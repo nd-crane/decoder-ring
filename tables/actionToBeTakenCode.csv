@@ -1,0 +1,38 @@
+,0,Code,Description
+1,1,1,Depot (shipyard or ship repair facility) Accomplish
+2,2,1A,Depot Assisted by Ship’s Force or Unit Personnel
+3,3,1S,Ship to Shop
+4,4,1M,Accomplish with Modification
+5,5,2,"IMA (tender or repair ship, etc.) Accomplish"
+6,6,2A,IMA Assisted by Ship’s Force or Unit Personnel
+7,7,2S,Ship to Shop
+8,8,2M,Accomplish with Modification
+9,9,3,"Fleet Technical Support.  TYCOM Support Unit (floating dry dock, etc.) 
+accomplished or Technical Assistance from NAVSEA, Regional 
+Maintenance Center or Contractor Representative."
+10,10,3A,TYCOM Support Un Assisted by Ship’s Force or Unit Personnel
+11,11,3S,Ship to Shop
+12,12,3M,Accomplish with Modification
+13,13,4,Ship’s Force or Unit Personnel Accomplish
+14,14,5,Deferred
+15,15,5A,Insufficient Time in the Availability to Complete the Task
+16,16,5B,Lack of Shipyard Capability
+17,17,5C,Lack of Material
+18,18,5D,Lack of Funds
+19,19,5E,Not Required During this Availability
+20,20,5F,General
+21,21,6,Not Authorized
+22,1,6A,Not Technically Justified
+23,2,6B,Covered by an Existing Ship Alteration
+24,3,6C,Duplicate of Another Job Control Number (JCN)
+25,4,6D,Not Cost Effective
+26,5,6E,General
+27,6,8,"Disapproved. 
+*  This screening code disapproves the accomplishment of a work item 
+by an outside activity.  It does not prevent entry of the deferral into the 
+CSMP, which is the decision of the Commanding Officer"
+28,7,9,"Remove from Current Ship’s or Unit Maintenance Project (CSMP).  Pass 
+to history (to be assigned by TYCOM only). 
+**  This screening code is restricted to the removal of INSURV items 
+from the CSMP for which, in the opinion of the Ship’s or Unit’s IUC and 
+TYCOM, the ship has no responsibility for accomplishment."

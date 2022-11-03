@@ -1,0 +1,11 @@
+,0,Code,Description
+1,1,1,Lighting Off or Starting
+2,2,2,Normal Operation
+3,3,3,During Operability Test
+4,4,4,During Inspection
+5,5,5,Shifting Operational Modes
+6,6,6,During PMS
+7,7,7,Securing
+8,8,8,During AEC (Assessment of Equipment) Program
+9,9,9,"No Failure, PMS Accomplishment Only"
+10,10,0,"Not Applicable (use when reporting printing services, etc.)"

@@ -1,0 +1,20 @@
+,0,Code,Description
+0,0,SA,Ship Alteration
+1,1,OA,Ordnance Alteration
+2,2,BA,Boat Alteration
+3,3,FC,Field Change
+4,4,MA,Machinery Alteration
+5,5,SI,SYSCOM Command Instruction
+6,6,EC,Engineering Change
+7,7,HI,Habitability
+8,8,TY,TYCOM Direction
+9,9,TD,Technical Directive
+10,10,SP,Strategic Systems Project Office Alteration
+11,11,SC,Service Change
+12,12,TR,Trident Alteration
+13,13,EP,Engineering Change Proposal
+14,14,MO,Crypto Equipment Modification
+15,15,AR,"Alteration Request 
+May be originated by a ship to request an alteration design.  Enter 
+and left-justify the authorized prefix “AR” followed by a blank 
+space any number the ship assigns for its own control."

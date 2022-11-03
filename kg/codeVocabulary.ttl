@@ -49,539 +49,28 @@
         moo1:code ;
     prov:wasGeneratedBy </activity> .
 
-<0072954b-03a1-40c3-9ced-033787797e45> a moo:Code ;
-    dcterms:title "Type Availability Code" ;
-    moo:codeDescription "Intermediate Maintenance Activity (tender, repair ship, etc.)" ;
-    moo:codeText "2" ;
-    moo:hasTypeAvailabilty moo:TypeAvailability ;
-    rdf:subClassOf moo:CodeType .
-
-<00c75dfe-6a53-4fb6-bf2b-9f4561042f14> a moo:Code ;
-    dcterms:title "Alteration Code" ;
-    moo:codeDescription "Service Change" ;
-    moo:codeText "SC" ;
-    moo:hasCause moo:Alteration ;
-    rdf:subClassOf moo:CodeType .
-
-<0439886d-8884-4978-be7a-19dd13007fed> a moo:Code ;
-    dcterms:title "Deferral Code" ;
-    moo:codeDescription "Formal Training Inadequate for this Equipment" ;
-    moo:codeText 4 ;
-    moo:hasDeferral moo:Deferral ;
-    rdf:subClassOf moo:CodeType .
-
-<064a701b-b33c-4cf5-ae20-df8d94909d9c> a moo:Code,
-        prov:Collection ;
-    dcterms:title "Naval Maintenance Code" .
-
-<09e147d2-e216-4ff0-ac55-a3385278f1b5> a moo:Code ;
-    dcterms:title "Type Availability Code" ;
-    moo:codeDescription """Ship’s Force or Unit (Originating Work Center, Organizational 
-Level)""" ;
-    moo:codeText "4" ;
-    moo:hasTypeAvailabilty moo:TypeAvailability ;
-    rdf:subClassOf moo:CodeType .
-
-<1078a35d-217e-49af-b411-c02003ac7038> a moo:Code ;
-    dcterms:title "Action Taken Code" ;
-    moo:codeDescription "Alteration Directive Not Applicable" ;
-    moo:codeText "5D" ;
-    moo:hasAction moo:Action ;
-    rdf:subClassOf moo:CodeType .
-
-<12194e50-fa3e-43d6-abbd-89b85a85123a> a moo:Code ;
-    dcterms:title "Rate Code" ;
-    moo:codeDescription "Civilian" ;
-    moo:codeText "CIV" ;
-    moo:hasRank moo:Rank ;
-    rdf:subClassOf moo:CodeType .
-
-<13921e5c-3c1b-4ed2-ba5f-1b1ff038b1de> a moo:Code ;
-    dcterms:title "whenDiscovered Code" ;
-    moo:codeDescription "During PMS" ;
-    moo:codeText 6 ;
-    moo:hasSituation moo:SituationWhenDiscovered ;
-    rdf:subClassOf moo:CodeType .
-
-<14f67c79-d8b7-4cea-9501-81df5aeb8999> a moo:Code ;
-    dcterms:title "whenDiscovered Code" ;
-    moo:codeDescription "No Failure, PMS Accomplishment Only" ;
-    moo:codeText 9 ;
-    moo:hasSituation moo:SituationWhenDiscovered ;
-    rdf:subClassOf moo:CodeType .
-
-<1700bea0-8742-4291-90c7-974d4d260476> a moo:Code ;
-    dcterms:title "Action Taken Code" ;
-    moo:codeDescription "None of the Above" ;
-    moo:codeText "0" ;
-    moo:hasAction moo:Action ;
-    rdf:subClassOf moo:CodeType .
-
-<1959f010-be4d-4784-a352-f71aaa0f3740> a moo:Code ;
-    dcterms:title "Alteration Code" ;
-    moo:codeDescription "Ship Alteration" ;
-    moo:codeText "SA" ;
-    moo:hasCause moo:Alteration ;
-    rdf:subClassOf moo:CodeType .
-
-<1d5099ef-b5ea-4e84-9e81-c191dfe73ad5> a moo:Code ;
-    dcterms:title "whenDiscovered Code" ;
-    moo:codeDescription "Normal Operation" ;
-    moo:codeText 2 ;
-    moo:hasSituation moo:SituationWhenDiscovered ;
-    rdf:subClassOf moo:CodeType .
-
-<1db9879a-28ee-4d57-bb93-112b14e10501> a moo:Code ;
-    dcterms:title "whenDiscovered Code" ;
-    moo:codeDescription "During Operability Test" ;
-    moo:codeText 3 ;
-    moo:hasSituation moo:SituationWhenDiscovered ;
-    rdf:subClassOf moo:CodeType .
-
-<1f16c0ed-51bb-4bec-b1f7-b7d6f536d1f1> a moo:Code ;
-    dcterms:title "Alteration Code" ;
-    moo:codeDescription "TYCOM Direction" ;
-    moo:codeText "TY" ;
-    moo:hasCause moo:Alteration ;
-    rdf:subClassOf moo:CodeType .
-
-<281205dd-050d-4887-9f10-670895da1373> a moo:Code ;
-    dcterms:title "Priority Code" ;
-    moo:codeDescription "Essential" ;
-    moo:codeText 2 ;
-    moo:hasPriority moo:Deferral ;
-    rdf:subClassOf moo:CodeType .
-
-<2fdf2cfe-331d-4e33-94a8-0c19f78372c3> a moo:Code ;
-    dcterms:title "Cause Code" ;
-    moo:codeDescription "Inadequate Design" ;
-    moo:codeText 6 ;
-    moo:hasCause moo:Cause ;
-    rdf:subClassOf moo:CodeType .
-
-<30cbde87-386f-4175-8548-72ad88dfcb0c> a moo:Code ;
-    dcterms:title "Action Taken Code" ;
-    moo:codeDescription "Fully Completed Equivalent to Alteration" ;
-    moo:codeText "5C" ;
-    moo:hasAction moo:Action ;
-    rdf:subClassOf moo:CodeType .
-
-<30dc1481-5904-4d9b-9d27-a281f4d58e80> a moo:Code ;
-    dcterms:title "Safety Code" ;
-    moo:codeDescription "Minor Safety or Health Deficiency" ;
-    moo:codeText 4 ;
-    moo:hasSafetyLevel moo:SafetyLevel ;
-    rdf:subClassOf moo:CodeType .
-
-<385c3498-fe34-4d7c-85ef-efbc8e32aaed> a moo:Code ;
-    dcterms:title "Deferral Code" ;
-    moo:codeDescription "Other - or Not Applicable (explain in block 35)" ;
-    moo:codeText 0 ;
-    moo:hasDeferral moo:Deferral ;
-    rdf:subClassOf moo:CodeType .
-
-<3afdb39d-40e3-4ceb-9364-475e449afb72> a moo:Code ;
-    dcterms:title "Type Availability Code" ;
-    moo:codeDescription "Not Applicable" ;
-    moo:codeText "0" ;
-    moo:hasTypeAvailabilty moo:TypeAvailability ;
-    rdf:subClassOf moo:CodeType .
-
-<3d1af525-edf4-424a-8aad-0b5267343155> a moo:Code ;
-    dcterms:title "Cause Code" ;
-    moo:codeDescription "Lack of Knowledge or Skill" ;
-    moo:codeText 3 ;
-    moo:hasCause moo:Cause ;
-    rdf:subClassOf moo:CodeType .
-
-<3e09bf36-313a-4ad4-8ec4-b371c0f2e11e> a moo:Code ;
-    dcterms:title "Safety Code" ;
-    moo:codeDescription "Critical Safety or Health Deficiency-Correct Immediately" ;
-    moo:codeText 1 ;
-    moo:hasSafetyLevel moo:SafetyLevel ;
-    rdf:subClassOf moo:CodeType .
-
-<4113c293-daa2-4891-b6c4-de18435fb62c> a moo:Code ;
-    dcterms:title "Deferral Code" ;
-    moo:codeDescription "Not Authorized for Ship’s Force or Unit Accomplishment" ;
-    moo:codeText 7 ;
-    moo:hasDeferral moo:Deferral ;
-    rdf:subClassOf moo:CodeType .
-
-<41a97e2a-43ad-4b36-97a5-f32a55c8a579> a moo:Code ;
-    dcterms:title "Action Taken Code" ;
-    moo:codeDescription "Maintenance Action Completed;  3-M Fiber Optic Repair" ;
-    moo:codeText "9" ;
-    moo:hasAction moo:Action ;
-    rdf:subClassOf moo:CodeType .
-
-<49494537-ab6a-4ca9-9961-5fb136c61d6f> a moo:Code ;
-    dcterms:title "Action Taken Code" ;
-    moo:codeDescription "Rejected Work Request" ;
-    moo:codeText "6" ;
-    moo:hasAction moo:Action ;
-    rdf:subClassOf moo:CodeType .
-
-<4b3c1c45-84fc-406b-8d8e-6a588c725d03> a moo:Code ;
-    dcterms:title "Priority Code" ;
-    moo:codeDescription "Highly Desirable" ;
-    moo:codeText 3 ;
-    moo:hasPriority moo:Deferral ;
-    rdf:subClassOf moo:CodeType .
-
-<4e7d607e-ad3d-48d5-85b9-c1868446ebe2> a moo:Code ;
-    dcterms:title "Alteration Code" ;
-    moo:codeDescription "Ordnance Alteration" ;
-    moo:codeText "OA" ;
-    moo:hasCause moo:Alteration ;
-    rdf:subClassOf moo:CodeType .
-
-<553598b8-a05d-47b1-bb8e-6cb97f4f0372> a moo:Code ;
-    dcterms:title "Deferral Code" ;
-    moo:codeDescription "Lack of Material" ;
-    moo:codeText 2 ;
-    moo:hasDeferral moo:Deferral ;
-    rdf:subClassOf moo:CodeType .
-
-<5cff9b73-6c49-4e9c-bbb7-16f811a46546> a moo:Code ;
-    dcterms:title "Alteration Code" ;
-    moo:codeDescription "Trident Alteration" ;
-    moo:codeText "TR" ;
-    moo:hasCause moo:Alteration ;
-    rdf:subClassOf moo:CodeType .
-
-<61122c6e-e8c1-4050-baa5-86c52bb7b17d> a moo:Code ;
-    dcterms:title "Action Taken Code" ;
-    moo:codeDescription "Maintenance Action Completed; Parts Drawn from Supply" ;
-    moo:codeText "1" ;
-    moo:hasAction moo:Action ;
-    rdf:subClassOf moo:CodeType .
-
-<658f3524-700a-48b3-9a57-feeb8993b2d5> a moo:Code ;
-    dcterms:title "Priority Code" ;
-    moo:codeDescription "Mandatory" ;
-    moo:codeText 1 ;
-    moo:hasPriority moo:Deferral ;
-    rdf:subClassOf moo:CodeType .
-
-<6bccc9b0-b766-4fe8-aaa8-d6195fc7df43> a moo:Code ;
-    dcterms:title "Rate Code" ;
-    moo:codeDescription "ET1" ;
-    moo:codeText "ET1" ;
-    moo:hasRank moo:Rank ;
-    rdf:subClassOf moo:CodeType .
-
-<6bf7578e-708c-4f90-8c9c-e946199c02d8> a moo:Code ;
-    dcterms:title "Alteration Code" ;
-    moo:codeDescription "Engineering Change" ;
-    moo:codeText "EC" ;
-    moo:hasCause moo:Alteration ;
-    rdf:subClassOf moo:CodeType .
-
-<6dee4192-1a88-4af2-a72a-44bcd6484016> a moo:Code ;
-    dcterms:title "Safety Code" ;
-    moo:codeDescription "Maintenance Action is Not Safety Related" ;
-    moo:codeText 0 ;
-    moo:hasSafetyLevel moo:SafetyLevel ;
-    rdf:subClassOf moo:CodeType .
-
-<6ffdfe26-5da7-4a7c-b351-895d38b96a13> a moo:Code ;
-    dcterms:title "Safety Code" ;
-    moo:codeDescription "Negligible Safety or Health Deficiency" ;
-    moo:codeText 5 ;
-    moo:hasSafetyLevel moo:SafetyLevel ;
-    rdf:subClassOf moo:CodeType .
-
-<73c218f1-a184-41d3-a945-fe4bc9aecec4> a moo:Code ;
-    dcterms:title "Action Taken Code" ;
-    moo:codeDescription "Partially Completed Alteration" ;
-    moo:codeText "5A" ;
-    moo:hasAction moo:Action ;
-    rdf:subClassOf moo:CodeType .
-
-<75edcb7d-31d5-4d87-bf0c-b929a5374846> a moo:Code ;
-    dcterms:title "whenDiscovered Code" ;
-    moo:codeDescription "During Inspection" ;
-    moo:codeText 4 ;
-    moo:hasSituation moo:SituationWhenDiscovered ;
-    rdf:subClassOf moo:CodeType .
-
-<7c068653-cdd1-447e-a9bd-62fa0367b128> a moo:Code ;
-    dcterms:title "Action Taken Code" ;
-    moo:codeDescription """Maintenance Action Completed; 2-M (Miniature and Micro-Miniature 
-Electronic Modules) Capability Utilized.""" ;
-    moo:codeText "7" ;
-    moo:hasAction moo:Action ;
-    rdf:subClassOf moo:CodeType .
-
-<7de9c7dc-d782-4f5a-a61d-278b10f39375> a moo:Code ;
+<0099def8-7a1b-4d97-b2cf-5280c6aa1e9c> a moo:Code ;
     dcterms:title "Alteration Code" ;
     moo:codeDescription "Technical Directive" ;
     moo:codeText "TD" ;
     moo:hasCause moo:Alteration ;
     rdf:subClassOf moo:CodeType .
 
-<820f4ec5-fd34-45c8-8c50-7a7aea73e47f> a moo:Code ;
-    dcterms:title "Alteration Code" ;
-    moo:codeDescription "SYSCOM Command Instruction" ;
-    moo:codeText "SI" ;
-    moo:hasCause moo:Alteration ;
-    rdf:subClassOf moo:CodeType .
-
-<839d56f5-3ef4-4ab4-9f88-478697d42142> a moo:Code ;
-    dcterms:title "Deferral Code" ;
-    moo:codeDescription "Due to Ship’s Force, Unit’s Work Backlog or Operational Priority" ;
-    moo:codeText 1 ;
-    moo:hasDeferral moo:Deferral ;
-    rdf:subClassOf moo:CodeType .
-
-<87c063bb-7e4c-453c-83fd-e7bf59701f13> a moo:Code ;
-    dcterms:title "Rate Code" ;
-    moo:codeDescription "GMG2" ;
-    moo:codeText "GMG2" ;
-    moo:hasRank moo:Rank ;
-    rdf:subClassOf moo:CodeType .
-
-<8889dc97-55e6-4cc8-a6cc-8c6ef91721dd> a moo:Code ;
+<04bcbf64-a790-4651-bf90-7bbfe5c0bade> a moo:Code ;
     dcterms:title "Type Availability Code" ;
-    moo:codeDescription """Fleet Technical Support.  TYCOM Support Unit (floating dry dock, 
-etc., or technical assistance from NAVSEA or Regional 
-Maintenance Centers or contractor representative)""" ;
-    moo:codeText "3" ;
+    moo:codeDescription "Not Applicable" ;
+    moo:codeText "0" ;
     moo:hasTypeAvailabilty moo:TypeAvailability ;
     rdf:subClassOf moo:CodeType .
 
-<8c3e6365-fec7-473e-b91a-854d0c8dca3e> a moo:Code ;
-    dcterms:title "Cause Code" ;
-    moo:codeDescription "Manufacturer or Installation Defects" ;
-    moo:codeText 2 ;
-    moo:hasCause moo:Cause ;
-    rdf:subClassOf moo:CodeType .
-
-<8d255db4-e091-49bd-8262-42f44858d44c> a moo:Code ;
-    dcterms:title "Alteration Code" ;
-    moo:codeDescription "Boat Alteration" ;
-    moo:codeText "BA" ;
-    moo:hasCause moo:Alteration ;
-    rdf:subClassOf moo:CodeType .
-
-<94a56d53-36f9-4ab6-a591-9f9ecda8b66c> a moo:Code ;
-    dcterms:title "Alteration Code" ;
-    moo:codeDescription "Habitability" ;
-    moo:codeText "HI" ;
-    moo:hasCause moo:Alteration ;
-    rdf:subClassOf moo:CodeType .
-
-<94fa42e1-d46e-410b-9395-d6970a634412> a moo:Code ;
-    dcterms:title "Alteration Code" ;
-    moo:codeDescription "Field Change" ;
-    moo:codeText "FC" ;
-    moo:hasCause moo:Alteration ;
-    rdf:subClassOf moo:CodeType .
-
-<985ef414-3731-4ecd-be06-cc8efd58c287> a moo:Code ;
-    dcterms:title "whenDiscovered Code" ;
-    moo:codeDescription "Securing" ;
-    moo:codeText 7 ;
-    moo:hasSituation moo:SituationWhenDiscovered ;
-    rdf:subClassOf moo:CodeType .
-
-<9a84cce2-f060-4c4c-9d12-2b58b1215492> a moo:Code ;
-    dcterms:title "Type Availability Code" ;
-    moo:codeDescription "Depot (shipyard or ship repair facility)" ;
-    moo:codeText "1" ;
-    moo:hasTypeAvailabilty moo:TypeAvailability ;
-    rdf:subClassOf moo:CodeType .
-
-<9e6b63c5-610e-427e-ab5b-354a84b9b7a6> a moo:Code ;
-    dcterms:title "Deferral Code" ;
-    moo:codeDescription "Lack of Facilities or Capabilities" ;
-    moo:codeText 6 ;
-    moo:hasDeferral moo:Deferral ;
-    rdf:subClassOf moo:CodeType .
-
-<a085157b-8125-4cf8-921e-3080d0d28e00> a moo:Code ;
-    dcterms:title "Deferral Code" ;
-    moo:codeDescription "Inadequate School Practical Training" ;
-    moo:codeText 5 ;
-    moo:hasDeferral moo:Deferral ;
-    rdf:subClassOf moo:CodeType .
-
-<a0df17e5-642e-4cfa-bedc-cc03e548fa25> a moo:Code ;
-    dcterms:title "Alteration Code" ;
-    moo:codeDescription "Machinery Alteration" ;
-    moo:codeText "MA" ;
-    moo:hasCause moo:Alteration ;
-    rdf:subClassOf moo:CodeType .
-
-<a2c14df1-8c2e-4025-b094-555ed8dbcf72> a moo:Code ;
-    dcterms:title "whenDiscovered Code" ;
-    moo:codeDescription "Shifting Operational Modes" ;
-    moo:codeText 5 ;
-    moo:hasSituation moo:SituationWhenDiscovered ;
-    rdf:subClassOf moo:CodeType .
-
-<a6c66f93-936f-4199-a0d5-7669f913e3ed> a moo:Code ;
-    dcterms:title "Cause Code" ;
-    moo:codeDescription "Abnormal Environment" ;
-    moo:codeText 1 ;
-    moo:hasCause moo:Cause ;
-    rdf:subClassOf moo:CodeType .
-
-<a8670533-1778-4447-9a40-7462dd1a862b> a moo:Code ;
-    dcterms:title "Alteration Code" ;
-    moo:codeDescription "Strategic Systems Project Office Alteration" ;
-    moo:codeText "SP" ;
-    moo:hasCause moo:Alteration ;
-    rdf:subClassOf moo:CodeType .
-
-<abb858e5-798b-4f06-b790-4300ba1144fa> a moo:Code ;
-    dcterms:title "Cause Code" ;
-    moo:codeDescription "Other or No Malfunction" ;
-    moo:codeText 0 ;
-    moo:hasCause moo:Cause ;
-    rdf:subClassOf moo:CodeType .
-
-<adf055fb-0a4d-4d2a-be6c-d670f336120a> a moo:Code ;
-    dcterms:title "Priority Code" ;
-    moo:codeDescription "Desirable" ;
-    moo:codeText 4 ;
-    moo:hasPriority moo:Deferral ;
-    rdf:subClassOf moo:CodeType .
-
-<ae761c1b-e146-42bc-a8c5-ebbeb80e776c> a moo:Code ;
-    dcterms:title "Cause Code" ;
-    moo:codeDescription "Communication Problem" ;
-    moo:codeText 4 ;
-    moo:hasCause moo:Cause ;
-    rdf:subClassOf moo:CodeType .
-
-<b1cdcd47-bdb2-40fe-8750-8119852b3b5a> a moo:Code ;
-    dcterms:title "Cause Code" ;
-    moo:codeDescription "Inadequate Instruction or Procedure" ;
-    moo:codeText 5 ;
-    moo:hasCause moo:Cause ;
-    rdf:subClassOf moo:CodeType .
-
-<b1e2dd23-f41b-4b6c-a02b-0ed943de7959> a moo:Code ;
-    dcterms:title "Action Taken Code" ;
-    moo:codeDescription """Periodic Time Meter or Cycle Counter reporting.  (This code is not 
-applicable to the “FINAL ACTION” code reported by the repair activity.)""" ;
-    moo:codeText "8" ;
-    moo:hasAction moo:Action ;
-    rdf:subClassOf moo:CodeType .
-
-<b8d5d68e-6c17-4d9d-9b4f-bc68ed83cdf9> a moo:Code ;
-    dcterms:title "Action Taken Code" ;
-    moo:codeDescription """Maintenance Action Completed; Required Parts Not Drawn from Supply 
-(local manufacture, pre-expended bins, etc.)""" ;
-    moo:codeText "2" ;
-    moo:hasAction moo:Action ;
-    rdf:subClassOf moo:CodeType .
-
-<ba75ea50-3ec3-4046-9b48-2f2b2774dd96> a moo:Code ;
-    dcterms:title "Safety Code" ;
-    moo:codeDescription """Serious Safety or Health Deficiency-Suspension of Equipment, 
-System or Space Use is required""" ;
-    moo:codeText 2 ;
-    moo:hasSafetyLevel moo:SafetyLevel ;
-    rdf:subClassOf moo:CodeType .
-
-<bace11c8-2b6f-4d88-8c60-25d9c361b446> a moo:Code ;
-    dcterms:title "Deferral Code" ;
-    moo:codeDescription "Lack of Technical Documentation" ;
-    moo:codeText 9 ;
-    moo:hasDeferral moo:Deferral ;
-    rdf:subClassOf moo:CodeType .
-
-<bb8840ed-85bb-4c8a-ac63-f516fad9b0f5> a moo:Code ;
-    dcterms:title "Type Availability Code" ;
-    moo:codeDescription """(Mission Degrading) (entered on 2K) Used by INSURV. Field 
-identifies certain deficiencies which are considered as preventing 
-the activity from carrying out some part of its mission.""" ;
-    moo:codeText "U" ;
-    moo:hasTypeAvailabilty moo:TypeAvailability ;
-    rdf:subClassOf moo:CodeType .
-
-<c0b954f5-bfb2-4567-8569-5c9b9d4abbc3> a moo:Code ;
-    dcterms:title "Rate Code" ;
-    moo:codeDescription "FTGSN" ;
-    moo:codeText "FTGN" ;
-    moo:hasRank moo:Rank ;
-    rdf:subClassOf moo:CodeType .
-
-<c378cf1a-0641-4aae-86d3-cd58879764f9> a moo:Code ;
-    dcterms:title "Rate Code" ;
-    moo:codeDescription "Officers" ;
-    moo:codeText "OFF" ;
-    moo:hasRank moo:Rank ;
-    rdf:subClassOf moo:CodeType .
-
-<c3fa0dfa-1318-49bc-bea8-0493cca8b36f> a moo:Code ;
-    dcterms:title "Action Taken Code" ;
-    moo:codeDescription "Maintenance Action Completed; No Parts Required" ;
-    moo:codeText "3" ;
-    moo:hasAction moo:Action ;
-    rdf:subClassOf moo:CodeType .
-
-<c4ce750f-6a8e-4a4b-9bcd-8e08b56d95e6> a moo:Code ;
-    dcterms:title "whenDiscovered Code" ;
-    moo:codeDescription "During AEC (Assessment of Equipment) Program" ;
-    moo:codeText 8 ;
-    moo:hasSituation moo:SituationWhenDiscovered ;
-    rdf:subClassOf moo:CodeType .
-
-<c6d367d1-2312-4c73-bcf7-18379cd144b1> a moo:Code ;
-    dcterms:title "Safety Code" ;
-    moo:codeDescription """Moderate Safety or Health Deficiency-Waiver of Equipment, 
-System or Space Use is granted Pending Correction of the Item""" ;
-    moo:codeText 3 ;
-    moo:hasSafetyLevel moo:SafetyLevel ;
-    rdf:subClassOf moo:CodeType .
-
-<ce77ea21-4e11-41e8-b582-0671a138ecb4> a moo:Code ;
-    dcterms:title "Cause Code" ;
-    moo:codeDescription "Normal Wear and Tear" ;
-    moo:codeText 7 ;
-    moo:hasCause moo:Cause ;
-    rdf:subClassOf moo:CodeType .
-
-<ce91e954-7e44-4dbf-a33b-94daaac5e12a> a moo:Code ;
-    dcterms:title "whenDiscovered Code" ;
-    moo:codeDescription "Lighting Off or Starting" ;
-    moo:codeText 1 ;
-    moo:hasSituation moo:SituationWhenDiscovered ;
-    rdf:subClassOf moo:CodeType .
-
-<cf547a5b-7147-4947-9065-b5a702107c16> a moo:Code ;
+<064719c4-0549-4831-b890-bfd965c0498f> a moo:Code ;
     dcterms:title "whenDiscovered Code" ;
     moo:codeDescription "Not Applicable (use when reporting printing services, etc.)" ;
-    moo:codeText 0 ;
+    moo:codeText "0" ;
     moo:hasSituation moo:SituationWhenDiscovered ;
     rdf:subClassOf moo:CodeType .
 
-<d3a2fe47-61d3-4b8a-a227-0a03b97fee16> a moo:Code ;
-    dcterms:title "Alteration Code" ;
-    moo:codeDescription "Crypto Equipment Modification" ;
-    moo:codeText "MO" ;
-    moo:hasCause moo:Alteration ;
-    rdf:subClassOf moo:CodeType .
-
-<d452f83e-9657-4660-aa4b-d2124a2f6342> a moo:Code ;
-    dcterms:title "Alteration Code" ;
-    moo:codeDescription "Engineering Change Proposal" ;
-    moo:codeText "EP" ;
-    moo:hasCause moo:Alteration ;
-    rdf:subClassOf moo:CodeType .
-
-<d507203d-5ecb-481f-8e7f-04e85b68b3a7> a moo:Code ;
-    dcterms:title "Rate Code" ;
-    moo:codeDescription "FN" ;
-    moo:codeText "FN" ;
-    moo:hasRank moo:Rank ;
-    rdf:subClassOf moo:CodeType .
-
-<d59af7aa-d908-4f37-93ec-dda1ec9694f0> a moo:Code ;
+<0b0acd32-fe4f-4a6f-9bc7-0d2ebbb3b1d4> a moo:Code ;
     dcterms:title "Action Taken Code" ;
     moo:codeDescription """Canceled (When this code is used, the deferral will be removed from the 
 CSMP).  This code is not to be used with INSURV, Safety, or Priority 1 or 2 
@@ -590,21 +79,294 @@ deferrals screened for accomplishment by the TYCOM or IUC.""" ;
     moo:hasAction moo:Action ;
     rdf:subClassOf moo:CodeType .
 
-<dd5349a9-78bd-46c7-9efe-e4feb87b6fbb> a moo:Code ;
+<0ca513d3-b85b-4fee-bf01-b7f6fab9216a> a moo:Code ;
+    dcterms:title "Deferral Code" ;
+    moo:codeDescription "Inadequate School Practical Training" ;
+    moo:codeText "5" ;
+    moo:hasDeferral moo:Deferral ;
+    rdf:subClassOf moo:CodeType .
+
+<0fb2762c-1742-4e5a-8098-7825ccebab54> a moo:Code ;
+    dcterms:title "Rate Code" ;
+    moo:codeDescription "FN" ;
+    moo:codeText "FN" ;
+    moo:hasRank moo:Rank ;
+    rdf:subClassOf moo:CodeType .
+
+<17678b71-0d7f-4874-be98-24680f8e30d4> a moo:Code ;
+    dcterms:title "Type Availability Code" ;
+    moo:codeDescription """Fleet Technical Support.  TYCOM Support Unit (floating dry dock, 
+etc., or technical assistance from NAVSEA or Regional 
+Maintenance Centers or contractor representative)""" ;
+    moo:codeText "3" ;
+    moo:hasTypeAvailabilty moo:TypeAvailability ;
+    rdf:subClassOf moo:CodeType .
+
+<17ebf7fe-b298-44c3-a0ae-b2b0acce41f9> a moo:Code ;
+    dcterms:title "Rate Code" ;
+    moo:codeDescription "GMG2" ;
+    moo:codeText "GMG2" ;
+    moo:hasRank moo:Rank ;
+    rdf:subClassOf moo:CodeType .
+
+<1fa4f294-81ff-4e38-b524-80c43aaffc57> a moo:Code ;
+    dcterms:title "Cause Code" ;
+    moo:codeDescription "Normal Wear and Tear" ;
+    moo:codeText "7" ;
+    moo:hasCause moo:Cause ;
+    rdf:subClassOf moo:CodeType .
+
+<219ea3ce-df85-40dd-9901-434c4ac235b2> a moo:Code ;
+    dcterms:title "Priority Code" ;
+    moo:codeDescription "Desirable" ;
+    moo:codeText "4" ;
+    moo:hasPriority moo:Deferral ;
+    rdf:subClassOf moo:CodeType .
+
+<26d2a3b2-3bfc-4a50-b2af-41fbbef701a1> a moo:Code ;
+    dcterms:title "whenDiscovered Code" ;
+    moo:codeDescription "Shifting Operational Modes" ;
+    moo:codeText "5" ;
+    moo:hasSituation moo:SituationWhenDiscovered ;
+    rdf:subClassOf moo:CodeType .
+
+<28346347-b3dc-41d7-b12c-3a753e50d798> a moo:Code ;
     dcterms:title "Deferral Code" ;
     moo:codeDescription "For Ship’s Force or Unit Overhaul of Availability Work List" ;
-    moo:codeText 8 ;
+    moo:codeText "8" ;
     moo:hasDeferral moo:Deferral ;
     rdf:subClassOf moo:CodeType .
 
-<e613f99f-d771-46f1-acba-f07b5b5bf836> a moo:Code ;
+<2c547b2f-94f4-43b7-8abc-331e90516e97> a moo:Code ;
+    dcterms:title "whenDiscovered Code" ;
+    moo:codeDescription "Normal Operation" ;
+    moo:codeText "2" ;
+    moo:hasSituation moo:SituationWhenDiscovered ;
+    rdf:subClassOf moo:CodeType .
+
+<34cbc80b-fb95-43b2-86b1-f6b0f9146e62> a moo:Code ;
+    dcterms:title "Cause Code" ;
+    moo:codeDescription "Manufacturer or Installation Defects" ;
+    moo:codeText "2" ;
+    moo:hasCause moo:Cause ;
+    rdf:subClassOf moo:CodeType .
+
+<3d629f40-1568-435e-8251-18ff398d63ab> a moo:Code ;
+    dcterms:title "Alteration Code" ;
+    moo:codeDescription "Machinery Alteration" ;
+    moo:codeText "MA" ;
+    moo:hasCause moo:Alteration ;
+    rdf:subClassOf moo:CodeType .
+
+<47773109-332b-4d3d-acf8-335dd68849c6> a moo:Code ;
+    dcterms:title "Cause Code" ;
+    moo:codeDescription "Inadequate Design" ;
+    moo:codeText "6" ;
+    moo:hasCause moo:Cause ;
+    rdf:subClassOf moo:CodeType .
+
+<4a654a44-9bd3-4cae-b7c6-969633b4d229> a moo:Code ;
+    dcterms:title "Alteration Code" ;
+    moo:codeDescription "Habitability" ;
+    moo:codeText "HI" ;
+    moo:hasCause moo:Alteration ;
+    rdf:subClassOf moo:CodeType .
+
+<52c6a75e-8cfa-4b5c-beae-150decda36f3> a moo:Code ;
+    dcterms:title "Type Availability Code" ;
+    moo:codeDescription """(Mission Degrading) (entered on 2K) Used by INSURV. Field 
+identifies certain deficiencies which are considered as preventing 
+the activity from carrying out some part of its mission.""" ;
+    moo:codeText "U" ;
+    moo:hasTypeAvailabilty moo:TypeAvailability ;
+    rdf:subClassOf moo:CodeType .
+
+<56e88b85-344d-48b4-abdc-a286a6bbb0f5> a moo:Code ;
+    dcterms:title "Action Taken Code" ;
+    moo:codeDescription "Alteration Directive Not Applicable" ;
+    moo:codeText "5D" ;
+    moo:hasAction moo:Action ;
+    rdf:subClassOf moo:CodeType .
+
+<5a262f29-9d90-4f54-a164-49c61d8eed73> a moo:Code ;
+    dcterms:title "whenDiscovered Code" ;
+    moo:codeDescription "No Failure, PMS Accomplishment Only" ;
+    moo:codeText "9" ;
+    moo:hasSituation moo:SituationWhenDiscovered ;
+    rdf:subClassOf moo:CodeType .
+
+<5a7cf657-d7ba-4af3-ba56-8a7b320447f9> a moo:Code ;
+    dcterms:title "Priority Code" ;
+    moo:codeDescription "Mandatory" ;
+    moo:codeText "1" ;
+    moo:hasPriority moo:Deferral ;
+    rdf:subClassOf moo:CodeType .
+
+<5aeabf9c-d4ff-4835-973c-81836bbd4f14> a moo:Code ;
+    dcterms:title "Alteration Code" ;
+    moo:codeDescription "TYCOM Direction" ;
+    moo:codeText "TY" ;
+    moo:hasCause moo:Alteration ;
+    rdf:subClassOf moo:CodeType .
+
+<5cb91ffa-5493-40be-9e4d-dc56e32923cb> a moo:Code ;
+    dcterms:title "Action Taken Code" ;
+    moo:codeDescription "Rejected Work Request" ;
+    moo:codeText "6" ;
+    moo:hasAction moo:Action ;
+    rdf:subClassOf moo:CodeType .
+
+<5da5148f-f7c0-4831-8cfc-8a7b7ad18305> a moo:Code ;
+    dcterms:title "Safety Code" ;
+    moo:codeDescription """Serious Safety or Health Deficiency-Suspension of Equipment, 
+System or Space Use is required""" ;
+    moo:codeText "2" ;
+    moo:hasSafetyLevel moo:SafetyLevel ;
+    rdf:subClassOf moo:CodeType .
+
+<5e0caa2b-38d8-459c-996a-82caa577982d> a moo:Code ;
+    dcterms:title "Alteration Code" ;
+    moo:codeDescription "Field Change" ;
+    moo:codeText "FC" ;
+    moo:hasCause moo:Alteration ;
+    rdf:subClassOf moo:CodeType .
+
+<61ba7f1e-2184-49dc-bd82-6b8acf53a8ad> a moo:Code ;
+    dcterms:title "Rate Code" ;
+    moo:codeDescription "ET1" ;
+    moo:codeText "ET1" ;
+    moo:hasRank moo:Rank ;
+    rdf:subClassOf moo:CodeType .
+
+<65c3d489-5258-4e7a-934d-9398a26b8ff9> a moo:Code ;
+    dcterms:title "Alteration Code" ;
+    moo:codeDescription "Boat Alteration" ;
+    moo:codeText "BA" ;
+    moo:hasCause moo:Alteration ;
+    rdf:subClassOf moo:CodeType .
+
+<69cc332b-3acb-47cf-b9a0-424eef9206a4> a moo:Code ;
+    dcterms:title "Action Taken Code" ;
+    moo:codeDescription "Partially Completed Alteration" ;
+    moo:codeText "5A" ;
+    moo:hasAction moo:Action ;
+    rdf:subClassOf moo:CodeType .
+
+<6bd036f7-7799-491b-89a2-ac05e4462874> a moo:Code ;
+    dcterms:title "Alteration Code" ;
+    moo:codeDescription "Ship Alteration" ;
+    moo:codeText "SA" ;
+    moo:hasCause moo:Alteration ;
+    rdf:subClassOf moo:CodeType .
+
+<6cdeea8a-1350-4769-865e-a1ec1927072c> a moo:Code ;
+    dcterms:title "Type Availability Code" ;
+    moo:codeDescription """Ship’s Force or Unit (Originating Work Center, Organizational 
+Level)""" ;
+    moo:codeText "4" ;
+    moo:hasTypeAvailabilty moo:TypeAvailability ;
+    rdf:subClassOf moo:CodeType .
+
+<7dc6f9da-7e54-4eac-afe9-44df0299b2c5> a moo:Code ;
+    dcterms:title "whenDiscovered Code" ;
+    moo:codeDescription "Securing" ;
+    moo:codeText "7" ;
+    moo:hasSituation moo:SituationWhenDiscovered ;
+    rdf:subClassOf moo:CodeType .
+
+<7ef57321-86d1-46b9-9d2b-d1afeff4bcd8> a moo:Code ;
+    dcterms:title "Alteration Code" ;
+    moo:codeDescription "Crypto Equipment Modification" ;
+    moo:codeText "MO" ;
+    moo:hasCause moo:Alteration ;
+    rdf:subClassOf moo:CodeType .
+
+<87268f3b-8d58-4143-9d30-b39e8241b6e2> a moo:Code ;
+    dcterms:title "Alteration Code" ;
+    moo:codeDescription "Engineering Change" ;
+    moo:codeText "EC" ;
+    moo:hasCause moo:Alteration ;
+    rdf:subClassOf moo:CodeType .
+
+<8ba4bfde-b29e-46a7-a701-5b5148c84504> a moo:Code ;
+    dcterms:title "Safety Code" ;
+    moo:codeDescription "Maintenance Action is Not Safety Related" ;
+    moo:codeText "0" ;
+    moo:hasSafetyLevel moo:SafetyLevel ;
+    rdf:subClassOf moo:CodeType .
+
+<9522622e-7fce-478a-b48e-3a637fb7c534> a moo:Code ;
+    dcterms:title "Alteration Code" ;
+    moo:codeDescription "Service Change" ;
+    moo:codeText "SC" ;
+    moo:hasCause moo:Alteration ;
+    rdf:subClassOf moo:CodeType .
+
+<9cbf63ef-50b9-45ee-8f91-8c25f564ede0> a moo:Code ;
+    dcterms:title "Action Taken Code" ;
+    moo:codeDescription """Maintenance Action Completed; Required Parts Not Drawn from Supply 
+(local manufacture, pre-expended bins, etc.)""" ;
+    moo:codeText "2" ;
+    moo:hasAction moo:Action ;
+    rdf:subClassOf moo:CodeType .
+
+<9d6fb7c1-a371-4b01-8446-0ff76e019b1f> a moo:Code ;
+    dcterms:title "Cause Code" ;
+    moo:codeDescription "Abnormal Environment" ;
+    moo:codeText "1" ;
+    moo:hasCause moo:Cause ;
+    rdf:subClassOf moo:CodeType .
+
+<9dc7b248-d19f-4bf8-9581-2a0034314121> a moo:Code ;
     dcterms:title "Deferral Code" ;
     moo:codeDescription "No Formal Training on this Equipment" ;
-    moo:codeText 3 ;
+    moo:codeText "3" ;
     moo:hasDeferral moo:Deferral ;
     rdf:subClassOf moo:CodeType .
 
-<e93c6544-e6dd-4ccd-a279-d0c48041d55d> a moo:Code ;
+<a0b98eb2-748f-4f3d-a2bc-34eb208aaf93> a moo:Code ;
+    dcterms:title "Alteration Code" ;
+    moo:codeDescription "Strategic Systems Project Office Alteration" ;
+    moo:codeText "SP" ;
+    moo:hasCause moo:Alteration ;
+    rdf:subClassOf moo:CodeType .
+
+<a308ffe0-6a28-48f1-a754-2ebfa4c503f2> a moo:Code ;
+    dcterms:title "Type Availability Code" ;
+    moo:codeDescription "Depot (shipyard or ship repair facility)" ;
+    moo:codeText "1" ;
+    moo:hasTypeAvailabilty moo:TypeAvailability ;
+    rdf:subClassOf moo:CodeType .
+
+<a4c93f79-ef1a-4b35-bd96-85b852abe066> a moo:Code ;
+    dcterms:title "Safety Code" ;
+    moo:codeDescription "Critical Safety or Health Deficiency-Correct Immediately" ;
+    moo:codeText "1" ;
+    moo:hasSafetyLevel moo:SafetyLevel ;
+    rdf:subClassOf moo:CodeType .
+
+<a5b49696-5f0e-4c4e-80dd-865efff5466c> a moo:Code ;
+    dcterms:title "Alteration Code" ;
+    moo:codeDescription "Trident Alteration" ;
+    moo:codeText "TR" ;
+    moo:hasCause moo:Alteration ;
+    rdf:subClassOf moo:CodeType .
+
+<a8a6fc3e-d4ae-4512-8ed3-6f7c719d2498> a moo:Code ;
+    dcterms:title "Safety Code" ;
+    moo:codeDescription "Negligible Safety or Health Deficiency" ;
+    moo:codeText "5" ;
+    moo:hasSafetyLevel moo:SafetyLevel ;
+    rdf:subClassOf moo:CodeType .
+
+<a8bff47f-a2de-4549-a377-7d511d5c964b> a moo:Code ;
+    dcterms:title "Alteration Code" ;
+    moo:codeDescription "SYSCOM Command Instruction" ;
+    moo:codeText "SI" ;
+    moo:hasCause moo:Alteration ;
+    rdf:subClassOf moo:CodeType .
+
+<ae7db7b3-f265-4384-929b-cb38f66b4211> a moo:Code ;
     dcterms:title "Alteration Code" ;
     moo:codeDescription """Alteration Request 
 May be originated by a ship to request an alteration design.  Enter 
@@ -614,11 +376,249 @@ space any number the ship assigns for its own control.""" ;
     moo:hasCause moo:Alteration ;
     rdf:subClassOf moo:CodeType .
 
-<ea7e4212-5223-43e8-8151-e395b294f537> a moo:Code ;
+<b2099015-3e6b-4f11-b322-e886f41fcfa3> a moo:Code ;
+    dcterms:title "Safety Code" ;
+    moo:codeDescription """Moderate Safety or Health Deficiency-Waiver of Equipment, 
+System or Space Use is granted Pending Correction of the Item""" ;
+    moo:codeText "3" ;
+    moo:hasSafetyLevel moo:SafetyLevel ;
+    rdf:subClassOf moo:CodeType .
+
+<b3dc88d7-be96-4cdf-bdf9-b9bf8c188ac8> a moo:Code ;
+    dcterms:title "Action Taken Code" ;
+    moo:codeDescription "Maintenance Action Completed; No Parts Required" ;
+    moo:codeText "3" ;
+    moo:hasAction moo:Action ;
+    rdf:subClassOf moo:CodeType .
+
+<b6e94530-447b-4f3c-b445-db69e8c10ea6> a moo:Code ;
+    dcterms:title "Priority Code" ;
+    moo:codeDescription "Highly Desirable" ;
+    moo:codeText "3" ;
+    moo:hasPriority moo:Deferral ;
+    rdf:subClassOf moo:CodeType .
+
+<b76fb8b6-de5a-4205-90f6-04c06e0ae259> a moo:Code ;
+    dcterms:title "Cause Code" ;
+    moo:codeDescription "Communication Problem" ;
+    moo:codeText "4" ;
+    moo:hasCause moo:Cause ;
+    rdf:subClassOf moo:CodeType .
+
+<b840ad11-6317-4a62-bc69-ec1dc7c149e2> a moo:Code ;
+    dcterms:title "Action Taken Code" ;
+    moo:codeDescription "Maintenance Action Completed; Parts Drawn from Supply" ;
+    moo:codeText "1" ;
+    moo:hasAction moo:Action ;
+    rdf:subClassOf moo:CodeType .
+
+<bef634d5-001b-4443-9e78-b85ec6cf3f74> a moo:Code ;
+    dcterms:title "Cause Code" ;
+    moo:codeDescription "Other or No Malfunction" ;
+    moo:codeText "0" ;
+    moo:hasCause moo:Cause ;
+    rdf:subClassOf moo:CodeType .
+
+<bf398ef0-353a-44ca-89d2-155bb9e8ec68> a moo:Code ;
+    dcterms:title "Action Taken Code" ;
+    moo:codeDescription """Maintenance Action Completed; 2-M (Miniature and Micro-Miniature 
+Electronic Modules) Capability Utilized.""" ;
+    moo:codeText "7" ;
+    moo:hasAction moo:Action ;
+    rdf:subClassOf moo:CodeType .
+
+<c245b66d-d3c4-4003-8456-bca711fd055c> a moo:Code ;
+    dcterms:title "whenDiscovered Code" ;
+    moo:codeDescription "Lighting Off or Starting" ;
+    moo:codeText "1" ;
+    moo:hasSituation moo:SituationWhenDiscovered ;
+    rdf:subClassOf moo:CodeType .
+
+<c2b8f541-b91f-4e58-8667-879139360b1d> a moo:Code ;
+    dcterms:title "Deferral Code" ;
+    moo:codeDescription "Due to Ship’s Force, Unit’s Work Backlog or Operational Priority" ;
+    moo:codeText "1" ;
+    moo:hasDeferral moo:Deferral ;
+    rdf:subClassOf moo:CodeType .
+
+<c78448d0-8e68-4d30-986a-601665b347bb> a moo:Code ;
+    dcterms:title "Rate Code" ;
+    moo:codeDescription "Officers" ;
+    moo:codeText "OFF" ;
+    moo:hasRank moo:Rank ;
+    rdf:subClassOf moo:CodeType .
+
+<c9bf320d-d273-4011-8c4b-e10c8e2e3eee> a moo:Code ;
+    dcterms:title "Priority Code" ;
+    moo:codeDescription "Essential" ;
+    moo:codeText "2" ;
+    moo:hasPriority moo:Deferral ;
+    rdf:subClassOf moo:CodeType .
+
+<ca077bf1-260d-4a7a-b39a-27da9add57d7> a moo:Code ;
+    dcterms:title "Rate Code" ;
+    moo:codeDescription "FTGSN" ;
+    moo:codeText "FTGN" ;
+    moo:hasRank moo:Rank ;
+    rdf:subClassOf moo:CodeType .
+
+<cabe8a4c-aed1-4562-be75-67a406705162> a moo:Code ;
+    dcterms:title "Action Taken Code" ;
+    moo:codeDescription "None of the Above" ;
+    moo:codeText "0" ;
+    moo:hasAction moo:Action ;
+    rdf:subClassOf moo:CodeType .
+
+<cd59ec41-5254-42b7-83e8-6e8e8825d0fc> a moo:Code ;
+    dcterms:title "Deferral Code" ;
+    moo:codeDescription "Formal Training Inadequate for this Equipment" ;
+    moo:codeText "4" ;
+    moo:hasDeferral moo:Deferral ;
+    rdf:subClassOf moo:CodeType .
+
+<cd8dcbac-dcae-4ac2-b238-6428a2ac4643> a moo:Code ;
+    dcterms:title "Deferral Code" ;
+    moo:codeDescription "Lack of Facilities or Capabilities" ;
+    moo:codeText "6" ;
+    moo:hasDeferral moo:Deferral ;
+    rdf:subClassOf moo:CodeType .
+
+<d07d1f04-e98f-43b0-a1f8-bdd7b8847d02> a moo:Code ;
+    dcterms:title "Action Taken Code" ;
+    moo:codeDescription """Periodic Time Meter or Cycle Counter reporting.  (This code is not 
+applicable to the “FINAL ACTION” code reported by the repair activity.)""" ;
+    moo:codeText "8" ;
+    moo:hasAction moo:Action ;
+    rdf:subClassOf moo:CodeType .
+
+<d2970e96-0cad-4c26-9741-cad9593857a9> a moo:Code ;
+    dcterms:title "Deferral Code" ;
+    moo:codeDescription "Lack of Technical Documentation" ;
+    moo:codeText "9" ;
+    moo:hasDeferral moo:Deferral ;
+    rdf:subClassOf moo:CodeType .
+
+<d2e620db-5d9b-4c73-8038-d4406dacceed> a moo:Code ;
+    dcterms:title "Cause Code" ;
+    moo:codeDescription "Lack of Knowledge or Skill" ;
+    moo:codeText "3" ;
+    moo:hasCause moo:Cause ;
+    rdf:subClassOf moo:CodeType .
+
+<d4f9b7b9-cd97-41b6-ac3f-a41096b18c58> a moo:Code ;
+    dcterms:title "Rate Code" ;
+    moo:codeDescription "Civilian" ;
+    moo:codeText "CIV" ;
+    moo:hasRank moo:Rank ;
+    rdf:subClassOf moo:CodeType .
+
+<d89a6616-7404-40d0-ab15-997801ac4734> a moo:Code ;
+    dcterms:title "Deferral Code" ;
+    moo:codeDescription "Not Authorized for Ship’s Force or Unit Accomplishment" ;
+    moo:codeText "7" ;
+    moo:hasDeferral moo:Deferral ;
+    rdf:subClassOf moo:CodeType .
+
+<d8d3d9e2-610d-41a3-8abc-11d15f32cc6f> a moo:Code ;
+    dcterms:title "whenDiscovered Code" ;
+    moo:codeDescription "During Inspection" ;
+    moo:codeText "4" ;
+    moo:hasSituation moo:SituationWhenDiscovered ;
+    rdf:subClassOf moo:CodeType .
+
+<db210b18-1c34-44ef-92cb-ba9625ecdd01> a moo:Code ;
+    dcterms:title "Alteration Code" ;
+    moo:codeDescription "Ordnance Alteration" ;
+    moo:codeText "OA" ;
+    moo:hasCause moo:Alteration ;
+    rdf:subClassOf moo:CodeType .
+
+<de0419b8-2f41-4f67-809f-cba55eb15b9b> a moo:Code ;
+    dcterms:title "whenDiscovered Code" ;
+    moo:codeDescription "During Operability Test" ;
+    moo:codeText "3" ;
+    moo:hasSituation moo:SituationWhenDiscovered ;
+    rdf:subClassOf moo:CodeType .
+
+<e4bb2ad4-64a3-41eb-90cf-f7d2c209d07f> a moo:Code ;
+    dcterms:title "Alteration Code" ;
+    moo:codeDescription "Engineering Change Proposal" ;
+    moo:codeText "EP" ;
+    moo:hasCause moo:Alteration ;
+    rdf:subClassOf moo:CodeType .
+
+<e625cb94-85a9-4313-b0df-fd1781353dbc> a moo:Code ;
+    dcterms:title "Safety Code" ;
+    moo:codeDescription "Minor Safety or Health Deficiency" ;
+    moo:codeText "4" ;
+    moo:hasSafetyLevel moo:SafetyLevel ;
+    rdf:subClassOf moo:CodeType .
+
+<e88d6208-5c1b-4aa4-aae9-c3dd3dd90004> a moo:Code ;
+    dcterms:title "Action Taken Code" ;
+    moo:codeDescription "Fully Completed Equivalent to Alteration" ;
+    moo:codeText "5C" ;
+    moo:hasAction moo:Action ;
+    rdf:subClassOf moo:CodeType .
+
+<ed29db17-df24-47af-87de-fdf4b219d960> a moo:Code ;
+    dcterms:title "Deferral Code" ;
+    moo:codeDescription "Other - or Not Applicable (explain in block 35)" ;
+    moo:codeText "0" ;
+    moo:hasDeferral moo:Deferral ;
+    rdf:subClassOf moo:CodeType .
+
+<f2038e46-42da-408b-ac72-0cf5752ecf26> a moo:Code ;
+    dcterms:title "whenDiscovered Code" ;
+    moo:codeDescription "During AEC (Assessment of Equipment) Program" ;
+    moo:codeText "8" ;
+    moo:hasSituation moo:SituationWhenDiscovered ;
+    rdf:subClassOf moo:CodeType .
+
+<f2ffaee2-4749-4eef-a89e-4980f0abddeb> a moo:Code ;
+    dcterms:title "Deferral Code" ;
+    moo:codeDescription "Lack of Material" ;
+    moo:codeText "2" ;
+    moo:hasDeferral moo:Deferral ;
+    rdf:subClassOf moo:CodeType .
+
+<f560cfbd-8ea8-434b-ab8b-d7607bdc3c83> a moo:Code ;
+    dcterms:title "Cause Code" ;
+    moo:codeDescription "Inadequate Instruction or Procedure" ;
+    moo:codeText "5" ;
+    moo:hasCause moo:Cause ;
+    rdf:subClassOf moo:CodeType .
+
+<f597a0d4-c67d-466a-97fa-feb8ab7d03e4> a moo:Code ;
     dcterms:title "Action Taken Code" ;
     moo:codeDescription "Fully Completed Alteration" ;
     moo:codeText "5B" ;
     moo:hasAction moo:Action ;
+    rdf:subClassOf moo:CodeType .
+
+<f744a0fd-6d87-4f50-a6f2-235ca70c90bf> a moo:Code ;
+    dcterms:title "Action Taken Code" ;
+    moo:codeDescription "Maintenance Action Completed;  3-M Fiber Optic Repair" ;
+    moo:codeText "9" ;
+    moo:hasAction moo:Action ;
+    rdf:subClassOf moo:CodeType .
+
+<f8790f61-0257-47da-a031-83a888b7486f> a moo:Code ;
+    dcterms:title "whenDiscovered Code" ;
+    moo:codeDescription "During PMS" ;
+    moo:codeText "6" ;
+    moo:hasSituation moo:SituationWhenDiscovered ;
+    rdf:subClassOf moo:CodeType .
+
+<fd06ba70-022e-468e-821e-1560fc2752d4> a moo:Code,
+        prov:Collection ;
+    dcterms:title "Naval Maintenance Code" .
+
+<ff081057-b817-40ad-ad79-85c330544831> a moo:Code ;
+    dcterms:title "Type Availability Code" ;
+    moo:codeDescription "Intermediate Maintenance Activity (tender, repair ship, etc.)" ;
+    moo:codeText "2" ;
+    moo:hasTypeAvailabilty moo:TypeAvailability ;
     rdf:subClassOf moo:CodeType .
 
 </activity> a prov:activity ;

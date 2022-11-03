@@ -1,0 +1,20 @@
+,0,1
+0,Table 10 – Type Availability Codes,
+1,Scenario or Issue,Use T/A Code
+2,"When requesting technical assistance from off-hull 
+activities.",3
+3,When requesting repair (industrial) from outside activities.,1 or 2
+4,When requesting calibration from outside activities.,1 or 2
+5,"When ordering parts or materials for Ship’s Force or Unit 
+use.",4
+6,For data reporting.,3
+7,"When requesting special support or test equipment 
+(hydrostatic pumps, rigging equipment, etc.).",3
+8,Completed without prior deferral.,4
+9,When submitting a CASREP.,"1, 2, 3 or 4"
+10,When submitting a temporary DFS.,"1, 2 or 4"
+11,For any change in system or equipment configuration.,3
+12,For documenting the results of an inspection or assessment.,3
+13,For installation of a SHIPALT or Ship Change Document.,"1, 2 or 4"
+14,For support services during a maintenance availability.,3
+15,For a CMP maintenance action.,"1 , 2, 3 or 4"

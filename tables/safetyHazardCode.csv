@@ -1,0 +1,9 @@
+,0,Code,Description
+2,2,1,Critical Safety or Health Deficiency-Correct Immediately
+3,3,2,"Serious Safety or Health Deficiency-Suspension of Equipment, 
+System or Space Use is required"
+4,4,3,"Moderate Safety or Health Deficiency-Waiver of Equipment, 
+System or Space Use is granted Pending Correction of the Item"
+5,5,4,Minor Safety or Health Deficiency
+6,6,5,Negligible Safety or Health Deficiency
+7,7,0,Maintenance Action is Not Safety Related
